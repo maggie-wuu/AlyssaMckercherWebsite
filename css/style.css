@@ -1,0 +1,341 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Lora', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background: #f4f1f1;
+}
+
+img{
+    max-width: 30%;
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+/* Main Title */
+.header > h1{
+    text-align: center;
+    background: #bdd5e7;
+    color: #FFFEF2;
+    font-size: 15px;
+}
+
+/* Logo */
+.container .logo{
+    padding: 7px;
+    width: 40%;
+}
+
+/* Navbar */
+.navbar{
+    padding: 5px;
+}
+
+.navbar .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .main-menu ul{
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+}
+
+.navbar ul li a {
+    padding: 10px 10px;
+    display: block;
+    font-weight: 200;
+    font-size: 8px;
+    transition: 0.5s;
+}
+
+.navbar ul li a:hover {
+    color: var(#ADD8E6);
+}
+
+/* footer */
+.footer{
+    text-align: center;
+    padding: 8px;
+    background: #bdd5e7;
+    color: #FFFEF2;
+    font-size: 6px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+/* Teaser + Book Cover */
+.teaser-section{
+    padding: 10px 10px 20px 10px;
+    text-align: center;
+}
+
+.teaser-section .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.teaser-section .teaser{
+    padding-right: 10px;
+}
+
+.teaser-section .teaser p{
+    font-size: 6.5px;
+}
+
+.teaser-section .book-cover{
+    align-items: center;
+    margin-left: 10px;
+}
+
+.teaser-section .book-cover a{
+    font-size: 8px;
+}
+
+.teaser-section .book-cover img{
+    max-width: 85%;
+    max-height: 85%;
+    box-shadow: 0 0 20px 5px rgba(235, 182, 11, 0.664);
+}
+
+/* Learn more */
+.learnMore {
+    padding: 10px 10px 20px 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+
+.learnMore .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 55%;
+    margin-left: 12%;
+}
+
+.learnMore .container img{
+    max-width: 43%;
+}
+
+.learnMore .container .learnMore-content{
+    font-size: 6.5px;
+    padding-left: 15px;
+}
+
+.container2 h3{
+    text-align: center;
+    font-size: 10px;
+}
+
+.container2 p{
+    text-align: center;
+    font-size: 9px;
+}
+
+.container2 .insta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 8px;
+}
+
+.container2 .insta img{
+    max-width: 5%;
+}
+
+/* About Section */
+.about{
+    margin-bottom: 60px;
+    text-align: center;
+    align-items: center;
+}
+
+.about h1{
+    padding-left: 25px;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 40px;
+    font-size: 30px;
+    color: black;
+}
+
+.about .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about .about-content{
+    font-size: 8px;
+    padding-right: 35px;
+}
+
+.about .about-text {
+    width: 100%;
+    padding-left: 35px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.about .about-image img{
+    max-width: 50%;
+    max-height: 50%;
+    box-shadow: 10px 10px 5px grey;
+}
+
+/* Ordering Section */
+.ordering{
+    margin-bottom: 20px;
+    padding: 10px 10px 20px 10px;
+    text-align: center;
+    align-items: center;
+}
+.ordering h1{
+    margin-bottom: 20px;
+    text-align: center;
+    align-items: center;
+    font-size: 25px;
+}
+.ordering .container{
+    align-items: center;
+    text-align: center;
+}
+
+.ordering .container img{
+    max-width: 70%;
+}
+
+.ordering .container .btn{
+    background-color:#bdd5e7;
+    border: none;
+    border-radius: 3px;
+    font-size: 12px;
+    transition: 0.5s;
+    padding: 8px 15px;
+}
+
+/* Contact Section */
+.contact{
+    margin-bottom: 20px;
+    text-align: center;
+    align-items: center;
+}
+
+.contact h1{
+    font-size: 25px;
+}
+
+.contact .container{
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 10px;
+    margin-right: 16%;
+    margin-bottom: 25px;
+}
+
+.contact .container img{
+    max-width: 16%;
+}
+
+.contact .container .divider img{
+    max-width: 50%;
+    padding-bottom: 3.5px;
+}
+
+.contact .container p{
+    font-size: 9px;
+    text-align: center;
+    align-items: center;
+}
+
+/* Buttons */
+.btn{
+    display: inline-block;
+    padding: 13px 20px;
+    font-weight: 600;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.btn:hover{
+    opacity: 0.8;
+}
+
+.btn-primary{
+    background: var(#ADD8E6);
+    color: #fff;
+}
+
+.btn-dark{
+    background: var(#555);
+    color: #fff;
+}
+
+.btn-block{
+    display: block;
+    width: 100%;
+}
+
+/* Dropdown Button */
+.dropbtn{
+    background: #f4f4f1;
+    font-size: 8px;
+    border: none;
+    font-family: 'Lora', sans-serif;
+    cursor: pointer;
+    transition: 0.5s; 
+    padding: 10px;
+}
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    background: #bdd5e7;
+    display: none;
+    position: absolute;
+    min-width: 95px;
+    z-index: 1;
+    box-shadow: 0px 8px 8px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    
+}
+
+.dropdown:hover {
+    color: var(#ADD8E6);
+    opacity: 0.8;
+}
